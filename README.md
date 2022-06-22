@@ -68,7 +68,8 @@ SECRET_KEY = os.environ['secret_key']
 \# SECRET_KEY가 노출되는 것을 막기위해서 django_environ 패키지를 설치하였습니다.  
 환경변수를 등록하여 거기에 SECRET_KEY를 환경변수에 저장하는 작업이 반드시 필요합니다.   
 + 윈도우 환경변수 편집(SECRET_KEY)
-![환경변수편집](https://user-images.githubusercontent.com/107024591/174992105-c4d77385-bf7b-43d3-9845-e7540ad56d11.jpg)
+![환경변수편집](https://user-images.githubusercontent.com/107024591/174999669-80a7d6ce-8d68-4209-ab30-4ee42ff7073e.jpg)     
+
                          
 ### 가장 신경 쓴 부분
 + RESTFUL API를 효율적으로 다룰 수 있도록 코드를 설계하였습니다.   
