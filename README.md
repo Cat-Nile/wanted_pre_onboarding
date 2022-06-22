@@ -33,8 +33,8 @@ python manage.py migrate
 ```
 5. 서버를 실행한다.
 ```cmd
-python manage.py runserver 127.0.0.1:8000
-```
+python manage.py runserver
+```    
 
 
 ## 3. 사용 기술 및 Tools
