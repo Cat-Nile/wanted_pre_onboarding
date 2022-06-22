@@ -67,11 +67,12 @@ SECRET_KEY = os.environ['secret_key']
 ```
 \# SECRET_KEY가 노출되는 것을 막기위해서 django_environ 패키지를 설치하였습니다.  
 환경변수를 등록하여 거기에 SECRET_KEY를 환경변수에 저장하는 작업이 반드시 필요합니다.   
-+ 윈도우 환경변수 편집(SECRET_KEY)
-![환경변수편집](https://user-images.githubusercontent.com/107024591/174999669-80a7d6ce-8d68-4209-ab30-4ee42ff7073e.jpg)     
+- 윈도우 환경변수 편집(SECRET_KEY)         
+![환경변수편집](https://user-images.githubusercontent.com/107024591/175000346-fe1fb9c7-80fb-46c3-ad6b-ff6bb93e293b.jpg)
 
                          
 ### 가장 신경 쓴 부분
+---
 + RESTFUL API를 효율적으로 다룰 수 있도록 코드를 설계하였습니다.   
 프론트엔드 개발자나, 프로젝트 팀원과 원활한 소통과 빠른 프로젝트 진행을 위해 최대한 API 데이터를 선발과제 예시와 같이 깔끔하고 단순하게 표현하도록 했습니다.  
  - 그 과정에서 nested_serializer 사용으로 인한 중첩을 Flatten하게 구현하였습니다.
