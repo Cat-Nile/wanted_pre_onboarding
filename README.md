@@ -85,10 +85,17 @@ python manage.py createsuperuser
 ## 8. 테스트
 ---
 아래는 insomnia로 로컬에서 테스트한 문서 링크를 공유해드립니다.
+* 채용담당자 생성  
 ![채용담당자 생성](https://user-images.githubusercontent.com/107024591/174989926-22763a93-3033-43f7-8df9-6e9671806df5.jpg)
+* 채용공고 등록  
 ![채용공고_등록](https://user-images.githubusercontent.com/107024591/174989980-5ae1f672-8328-43de-a4c7-896bc99c8fe4.png)
+* 채용공고 수정  
 ![채용공고 수정](https://user-images.githubusercontent.com/107024591/174989970-b6f6c7f4-5965-4fec-b7ef-c170fd126b3f.jpg)
+* 채용공고목록 조회
 ![채용공고목록 조회](https://user-images.githubusercontent.com/107024591/174990017-9d24b593-08a8-41f1-a00f-b878d206b3bf.jpg)
+* 채용상세페이지 조회
 ![채용상세페이지조회](https://user-images.githubusercontent.com/107024591/174989956-370e8825-e758-4d03-ad98-6601582d62ae.jpg)
+* 채용공고 삭제
 ![채용공고 삭제](https://user-images.githubusercontent.com/107024591/174989914-467be210-0a61-4fc3-b380-45c01f0b205a.jpg)
+* 채용공고 지원현황 목록(지원자_id:채용공고_id)
 ![채용공고_지원_현황_목록](https://user-images.githubusercontent.com/107024591/174989995-c2c0b269-8b16-4c89-8273-64259966c583.jpg)
